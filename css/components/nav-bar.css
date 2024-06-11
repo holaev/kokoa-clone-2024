@@ -1,0 +1,48 @@
+.nav{
+    position : fixed;
+    bottom:0;
+    width : 100%;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    padding : 20px 50px;
+    border-top: 1px solid #56545468;
+    
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link{
+    position : relative;
+    color : rgba(53, 51, 51, 0.8)
+}
+
+.nav__notification{
+    background-color: tomato;
+    width : 20px;
+    height : 20px;
+    border-radius: 100%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-weight :550;
+    color: white;
+
+    position : absolute;
+    left :18px;
+    bottom :15px;
+}
+
+.nav__reddot
+{
+    background-color: tomato;
+    color :rgba(0, 0, 0,  0);
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+   
+    position : absolute;
+    left : 30px;
+    bottom : 25px;
+}
