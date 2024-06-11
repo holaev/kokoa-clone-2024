@@ -1,0 +1,13 @@
+#friends-display-link 
+{
+    text-align: center;
+    display: block;
+    text-align: center;
+    background-color: whitesmoke;
+    padding : 12px 0px;
+ 
+}
+
+#friends-display-link svg{
+    color : rgba(0,0,0,0.3);
+}
